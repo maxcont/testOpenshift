@@ -1,0 +1,20 @@
+{
+    "name": "coriTemplate",
+    "engine": "handlebars",
+    "recipe": "html-to-xlsx",
+    "data": {
+        "shortid": "nMbcg2WTf"
+    },
+    "shortid": "0sCWE0zRG",
+    "htmlToXlsx": {
+        "htmlEngine": "chrome"
+    },
+    "creationDate": {
+        "$$date": 1699365424188
+    },
+    "modificationDate": {
+        "$$date": 1699373559949
+    },
+    "_id": "vW00UCLy4IIXBJ2t",
+    "$entitySet": "templates"
+}

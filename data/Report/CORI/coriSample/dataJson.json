@@ -1,0 +1,24 @@
+{
+  "anagrafiche": [
+    {
+      "WBS": "TE-AR-17-001",
+      "WBS_DESC": "T.273 VERCELLI-TRINO: Variante a LIGNANA",
+      "INTERVENTO": "0306",
+      "DESC_INTERVENTO": "ELETTRODOTTO 380KV TRINO - LACCHIARELLA",
+      "SEDE_TECN": "9999999",
+      "TIPO_AUTORIZZAZIONE": "Autorizzazione 239",
+      "CONCATENATED_TIPOLOGIA_INTERVENTO": "LIN - nuova linea aerea;SMS - nuova stazione smistamento;VAR - variante linea aerea",
+      "INDIRIZZO": "Via Pagoda Bianca 4(4529658,5:928038,44)    ;indirizzo1(4641712:946455,06)    ;indirizzo10(4631261:954441,2)    ;indirizzo11(:)    ;indirizzo13(:)    ;indirizzo14(:)    ;indirizzo2(4650982,5:977059,4)    ;indirizzo3(4575681:1031857,25)    ;indirizzo4(4575681:1031857,25)    ;indirizzo5(4539647,2692:1085662,6471)    ;indirizzo7(4506475:1077034,8)    ;indirizzo7(4647073:781391,6)    ;indirizzo8(4507130,3173:1096761,6181)    ;indirizzo9(4575681:1031857,25)    ;(:)    "
+    },
+    {
+      "WBS": "TE-AR-17-002",
+      "WBS_DESC": "T.274 MILANO-TRINO: Variante a SOMMA",
+      "INTERVENTO": "0307",
+      "DESC_INTERVENTO": "ELETTRODOTTO 380KV MILANO - SOMMA",
+      "SEDE_TECN": "9999998",
+      "TIPO_AUTORIZZAZIONE": "Autorizzazione 240",
+      "CONCATENATED_TIPOLOGIA_INTERVENTO": "LIN - nuova linea aerea;SMS - nuova stazione smistamento;VAR - variante linea aerea",
+      "INDIRIZZO": "Via della Vittoria 12(4529658,5:928038,44)    ;indirizzo12(4641712:946455,06)    ;indirizzo13(4631261:954441,2)    ;indirizzo14(:)    ;indirizzo15(:)    ;indirizzo16(:)    ;indirizzo17(4650982,5:977059,4)    ;indirizzo18(4575681:1031857,25)    ;indirizzo19(4575681:1031857,25)    ;indirizzo20(4539647,2692:1085662,6471)    ;indirizzo21(4506475:1077034,8)    ;indirizzo22(4647073:781391,6)    ;indirizzo23(4507130,3173:1096761,6181)    ;indirizzo24(4575681:1031857,25)    ;(:)    "
+    }
+  ]
+}

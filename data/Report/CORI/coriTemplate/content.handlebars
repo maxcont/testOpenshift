@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      table {
+        border-collapse: collapse;
+        table-layout: fixed; /* Imposta la larghezza delle colonne sulla larghezza specificata */
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        height: 20px; /* Imposta l'altezza desiderata */
+        max-width: 150px; /* Imposta la larghezza massima */
+        overflow: hidden; /* Impedisce lo sforamento del testo */
+        white-space: nowrap; /* Impedisce il wrap del testo */
+      }
+      th.header-cell {
+        height: 20px; /* Altezza specifica per celle di intestazione */
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Report</h1>
+
+    <h2>Anagrafica</h2>
+    <table>
+      <tr>
+        <th class="header-cell" colspan="9">ANAGRAFICA PROGETTO</th>
+        <th class="header-cell" colspan="10">REFERENTI</th>
+      </tr>
+      <tr>
+        <!-- SEZIONE ANAGRAFICA -->
+        <th class="header-cell">CODICE INTERVENTO</th>
+        <th class="header-cell">DESCRIZIONE INTERVENTO</th>
+        <th class="header-cell">TIPOLOGIA_INTERVENTO</th>
+        <th class="header-cell">CATEGORIA INCENTIVAZIONE</th>
+        <th class="header-cell">WBS</th>
+        <th class="header-cell">WBS_DESC</th>
+        <th class="header-cell">INDIRIZZO</th>
+        <th class="header-cell">SEDE_TECN</th>
+        <th class="header-cell">TIPO_AUTORIZZAZIONE</th>
+        <!-- FINE  SEZIONE ANAGRAFICA -->
+        <!--   SEZIONE REFERENTI -->
+        <th class="header-cell">Udb</th>
+        <th class="header-cell">RPE</th>
+        <th class="header-cell">Capo Progetto</th>
+        <th class="header-cell">Project Leader </th>
+        <th class="header-cell">Referente prog. Ottica  </th>
+        <th class="header-cell">Referente indisp.  </th>
+        <th class="header-cell">DT </th>
+        <th class="header-cell">UI (unità impianti Consegnataria)  </th>
+        <th class="header-cell">SPOC RIT  </th>
+        <th class="header-cell">SPOC RTN  </th>
+      </tr>
+      {{#each anagrafiche}}
+      <tr>
+                <!-- SEZIONE ANAGRAFICA -->
+
+        <td>{{INTERVENTO}}</td>
+        <td>{{DESC_INTERVENTO}}</td>
+        <td>{{CONCATENATED_TIPOLOGIA_INTERVENTO}}</td>
+        <td>categoria incentivazione </td>
+        <td>{{WBS}}</td>
+        <td>{{WBS_DESC}}</td>
+        <td>{{INDIRIZZO}}</td>
+        <td>{{SEDE_TECN}}</td>
+        <td>{{TIPO_AUTORIZZAZIONE}}</td>
+        <!-- FINE  SEZIONE ANAGRAFICA -->
+        <!--   SEZIONE REFERENTI -->
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+        <td>TEST </td>
+      </tr>
+      {{/each}}
+    </table>
+
+
+  </body>
+</html>
